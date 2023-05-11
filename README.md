@@ -2,9 +2,20 @@
 
 This example demonstrates how to setup a Glue42 Server instance to use Auth0 authentication.
 
-# What you need to run this examples
+# Auth0 Setup
 
-<TODO - how to setup Auth 0 apps)>
+<THIS SECTION IS WORK IN PROGRESS, THERE MIGHT BE GAPS>
+ 
+You need to setup two things in Auth0 to run the example
+
+1. A Single Page Application - to be used for the Admin UI
+ * make sure allowed callback, logout and web origins URLs are setup correctly 
+ * you need to provide a domain, clientId, audience (the unique identifier for the API), redirectUri to the React Component
+ * connection to a user database or social login
+
+2. An API 
+ * you need to provide jwksUri, audience (the unique identifier for the API) and issuer
+    
 # How to run
 
 ## Server
