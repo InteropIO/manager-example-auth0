@@ -4,6 +4,7 @@ This example demonstrates how to setup a Glue42 Server instance to use Auth0 aut
 
 # What you need to run this examples
 
+<TODO - how to setup Auth 0 apps)>
 # How to run
 
 ## Server
