@@ -4,7 +4,7 @@ This example demonstrates how to setup a Glue42 Server instance to use Auth0 aut
 
 # Auth0 Setup
 
-You need to a few things in Auth0 to run the example
+You need to setup a few things in Auth0 to run the example
 
 **API**
 * Used by the Server to verify tokens comming from Admin UI or other clients (Glue42 Enterprise, Glue42 Core)
