@@ -6,10 +6,6 @@ import '@glue42/theme';
 import '@glue42/theme/dist/packages/rc-select.css';
 import "@glue42/server-admin-ui/dist/src/styles/index.css";
 import "@ag-grid-community/core/dist/styles/ag-grid.css";
-require('react-dom');
-(window as any).React2 = require('react');
-console.log((window as any).React1 === (window as any).React2);
-
 
 ReactDOM.render(
   <React.StrictMode>
