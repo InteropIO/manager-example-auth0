@@ -18,7 +18,7 @@ You need to setup a few things in Auth0 to run the example
 
 # How to run
 
-## Server
+**Server**
 
 1. Open *server* directory
 1. Add a *.npmrc* file with the following content (placeholders can be filled in after setting up JFrog account)
@@ -37,7 +37,7 @@ npm i
 npm run start
 ```
 
-## Admin UI
+**Admin UI**
 
 1. Open admin-ui directory
 1. Add a *.npmrc* file with the following content (placeholders can be filled in after setting up JFrog account)
