@@ -18,6 +18,14 @@ You need to setup a few things in Auth0 to run the example
 
 # How to run
 
+**Prerequisites** 
+
+_**Setup MongoDB**_
+
+Glue42 Servr uses MongoDB as a database. You will need to either have a local instance or setup MongoDB in AtlasDB
+
+_**Setup access to Glue42 Artifcatory**_
+
 Before you begin you need to add *.npmrc* files with the following content into _server_ and _admin-ui_ directories (placeholders can be filled in after setting up JFrog account)
 ```sh
 registry=https://registry.npmjs.org
