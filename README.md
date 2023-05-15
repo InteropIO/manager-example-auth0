@@ -40,7 +40,8 @@ registry=https://registry.npmjs.org
 1. Open *server* directory
 1. Edit *src/index.ts* and add your Auth0 API app details in the *auth_auth0* object
 1. If you want to have to the AdminUI with a specific account add it to the *auth_exclusive_users* list (using the Auth0 id)
-1. Execute 
+2. Edit the MongoDB connection string (store.connection property of the config object)
+3. Execute 
 ```sh
 npm i
 npm run start
