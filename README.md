@@ -8,7 +8,7 @@ You need to setup a few things in Auth0 to run the example
 
 **API**
 * Used by the Server to verify tokens comming from Admin UI or other clients (Glue42 Enterprise, Glue42 Core)
-* When initializing the server you need to provide jwksUri, audience (the unique identifier for the API) and issuer 
+* When initializing the server you need to provide issuerBaseURL, audience (the unique identifier for the API) and tokenSigningAlg - check Auth0 docs on how to retrieve those for your application
 
 **Single Page Application**
 * Used by the Admin UI to authenticate
