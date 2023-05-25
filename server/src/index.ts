@@ -15,9 +15,9 @@ const startServer = async () => {
         auth_exclusive_users: [""], // list of users that will have access to the admin ui; use auth0 ids
         auth_method: "auth0",
         auth_auth0: {
-            jwksUri: "",
             audience: "",
-            issuer: "",
+            issuerBaseURL: "",
+            tokenSigningAlg: ""
         }
     };
 
