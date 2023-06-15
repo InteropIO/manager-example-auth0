@@ -9,6 +9,11 @@ You need to setup a few things in Auth0 to run the example
 **API**
 * Used by the Server to verify tokens comming from Admin UI or other clients (Glue42 Enterprise, Glue42 Core)
 * When initializing the server you need to provide issuerBaseURL, audience (the unique identifier for the API) and tokenSigningAlg - check Auth0 docs on how to retrieve those for your application
+* You need to add an permission called **admin** to that API - this permission needs to be granted to user that can manage the server 
+
+Example for setting up the API permissions
+![image](https://github.com/Glue42/server-example-auth0/assets/6021897/9449268a-e71b-4bd7-b2e8-60a44608e4d5)
+
 
 **Single Page Application**
 * Used by the Admin UI to authenticate
