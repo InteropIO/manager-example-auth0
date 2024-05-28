@@ -62,7 +62,7 @@ npm run start
 
 **Protecting io.Connect Desktop with Auth0**
 
-1. Setup th login page:
+1. Setup the login page:
 
 * Fill in Auth0 details in [*auth_config.json*](./login/auth_config.json)
 * Host login page locally (e.g. using http-server) - the example bellow assumes it is hosted on http://localhost:9123
